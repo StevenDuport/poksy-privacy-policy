@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité - Poksy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #1a1a1a;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #007AFF;
+            margin-top: 30px;
+        }
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        .contact {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Politique de Confidentialité - Poksy</h1>
+    <p class="last-updated">Dernière mise à jour : 30 octobre 2025</p>
+
+    <div class="section">
+        <h2>1. Introduction</h2>
+        <p>
+            Bienvenue sur Poksy, votre application de gestion budgétaire personnelle.
+            Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations personnelles.
+        </p>
+        <p>
+            En utilisant Poksy, vous acceptez les pratiques décrites dans cette politique de confidentialité.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>2. Informations que nous collectons</h2>
+
+        <h3>2.1 Données personnelles et de compte</h3>
+        <p>Lors de la création de votre compte, nous collectons :</p>
+        <ul>
+            <li>Adresse email (via Firebase Authentication)</li>
+            <li>Identifiant utilisateur unique (UID)</li>
+            <li>Informations de profil (nom, dates de salaire, préférences)</li>
+        </ul>
+
+        <h3>2.2 Données budgétaires stockées dans le cloud</h3>
+        <p>Toutes vos données financières sont stockées de manière sécurisée dans Firebase Firestore (Google Cloud) :</p>
+        <ul>
+            <li><strong>Transactions :</strong> Vos revenus, dépenses, factures et épargnes</li>
+            <li><strong>Budgets mensuels :</strong> Vos budgets prévisionnels et réels</li>
+            <li><strong>Catégories :</strong> Vos catégories personnalisées de dépenses</li>
+            <li><strong>Profil utilisateur :</strong> Soldes, dates de salaire, préférences</li>
+        </ul>
+        <p><strong>Sécurité :</strong> Ces données sont :</p>
+        <ul>
+            <li>✅ Stockées de manière chiffrée sur les serveurs Google Cloud</li>
+            <li>✅ Accessibles uniquement par vous via votre compte</li>
+            <li>✅ Protégées par des règles de sécurité Firebase strictes</li>
+            <li>✅ Synchronisées entre vos appareils si vous utilisez le même compte</li>
+        </ul>
+
+        <h3>2.3 Informations d'abonnement</h3>
+        <p>Si vous souscrivez à un abonnement Premium, nous collectons et stockons :</p>
+        <ul>
+            <li>Informations de transaction via RevenueCat (identifiant anonyme)</li>
+            <li>Statut d'abonnement (actif, expiré, période d'essai)</li>
+            <li>Date d'expiration et renouvellement automatique</li>
+            <li>Plateforme d'achat (App Store)</li>
+        </ul>
+
+        <h3>2.4 Données d'utilisation et techniques</h3>
+        <p>Nous pouvons collecter des informations anonymes sur l'utilisation de l'application :</p>
+        <ul>
+            <li>Type d'appareil et version du système d'exploitation</li>
+            <li>Données de crash et de performance (via Expo)</li>
+            <li>Fonctionnalités utilisées (de manière agrégée et anonyme)</li>
+            <li>Logs d'erreurs pour améliorer la stabilité</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>3. Comment nous utilisons vos informations</h2>
+        <p>Nous utilisons vos informations pour :</p>
+        <ul>
+            <li>Fournir et améliorer les fonctionnalités de l'application</li>
+            <li>Gérer votre abonnement Premium</li>
+            <li>Assurer le support technique</li>
+            <li>Améliorer la sécurité et la stabilité de l'application</li>
+            <li>Respecter nos obligations légales</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>4. Services tiers</h2>
+
+        <h3>4.1 Firebase / Google Cloud (Firestore & Authentication)</h3>
+        <p>
+            Nous utilisons Firebase de Google pour :
+        </p>
+        <ul>
+            <li><strong>Firebase Authentication :</strong> Gestion sécurisée de votre connexion et authentification</li>
+            <li><strong>Firebase Firestore :</strong> Stockage cloud sécurisé de vos données budgétaires</li>
+        </ul>
+        <p>
+            Toutes vos données sont hébergées sur les serveurs Google Cloud et soumises aux
+            <a href="https://firebase.google.com/support/privacy" target="_blank">politiques de confidentialité de Firebase</a>
+            et aux
+            <a href="https://policies.google.com/privacy" target="_blank">politiques de confidentialité de Google</a>.
+        </p>
+        <p><strong>Localisation des données :</strong> Les données sont stockées dans des centres de données Google Cloud certifiés, conformes au RGPD.</p>
+
+        <h3>4.2 RevenueCat</h3>
+        <p>
+            Nous utilisons RevenueCat pour gérer les abonnements in-app. RevenueCat collecte et traite
+            des informations liées à vos achats conformément à leur
+            <a href="https://www.revenuecat.com/privacy" target="_blank">politique de confidentialité</a>.
+        </p>
+
+        <h3>4.3 Apple App Store</h3>
+        <p>
+            Les achats sont traités par Apple. Apple collecte et traite vos informations de paiement
+            conformément à leur politique de confidentialité. Nous n'avons pas accès à vos informations de carte bancaire.
+        </p>
+
+        <h3>4.4 Expo</h3>
+        <p>
+            L'application est développée avec Expo. Des données de performance anonymes peuvent être
+            collectées pour améliorer la stabilité de l'application.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>5. Partage des données</h2>
+        <p>Nous ne vendons jamais vos données personnelles. Nous ne partageons vos informations qu'avec :</p>
+        <ul>
+            <li><strong>Firebase/Google Cloud :</strong> Pour le stockage et la synchronisation de vos données</li>
+            <li><strong>RevenueCat :</strong> Pour la gestion des abonnements Premium</li>
+            <li><strong>Apple :</strong> Pour le traitement des paiements in-app</li>
+            <li><strong>Autorités légales :</strong> Si requis par la loi</li>
+        </ul>
+        <p><strong>Important :</strong> Nous ne partageons jamais vos données avec des tiers à des fins marketing ou publicitaires.</p>
+    </div>
+
+    <div class="section">
+        <h2>6. Sécurité des données</h2>
+        <p>
+            Nous prenons la sécurité de vos données au sérieux et mettons en œuvre plusieurs mesures de protection :
+        </p>
+        <ul>
+            <li><strong>Chiffrement en transit :</strong> Toutes les communications entre l'app et Firebase sont chiffrées via HTTPS/TLS</li>
+            <li><strong>Chiffrement au repos :</strong> Vos données sont chiffrées dans les bases de données Firebase</li>
+            <li><strong>Authentification sécurisée :</strong> Firebase Authentication avec protocoles standards (OAuth 2.0)</li>
+            <li><strong>Règles de sécurité :</strong> Accès strictement limité à votre compte uniquement</li>
+            <li><strong>Infrastructure certifiée :</strong> Google Cloud Platform (ISO 27001, SOC 2, conforme RGPD)</li>
+            <li><strong>Aucun accès administrateur :</strong> Nous n'avons pas accès à vos données financières personnelles</li>
+        </ul>
+        <p><strong>En cas de violation de données :</strong> Nous vous informerons dans les 72 heures conformément au RGPD.</p>
+    </div>
+
+    <div class="section">
+        <h2>7. Vos droits</h2>
+        <p>Conformément au RGPD et aux lois sur la protection des données, vous avez le droit de :</p>
+        <ul>
+            <li><strong>Accéder</strong> à vos données personnelles</li>
+            <li><strong>Rectifier</strong> vos données inexactes</li>
+            <li><strong>Supprimer</strong> vos données (droit à l'oubli)</li>
+            <li><strong>Vous opposer</strong> au traitement de vos données</li>
+            <li><strong>Retirer</strong> votre consentement à tout moment</li>
+        </ul>
+        <p>
+            Pour supprimer toutes vos données locales, vous pouvez simplement désinstaller l'application.
+            Pour supprimer vos données d'abonnement, contactez-nous.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>8. Conservation des données</h2>
+        <ul>
+            <li><strong>Données locales :</strong> Conservées jusqu'à la désinstallation de l'app</li>
+            <li><strong>Données d'abonnement :</strong> Conservées pendant la durée de l'abonnement + 1 an (obligations légales)</li>
+            <li><strong>Données de support :</strong> Conservées pendant 3 ans maximum</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>9. Confidentialité des mineurs</h2>
+        <p>
+            Poksy est destiné aux personnes âgées de 13 ans et plus. Nous ne collectons pas
+            sciemment d'informations personnelles auprès d'enfants de moins de 13 ans.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>10. Modifications de cette politique</h2>
+        <p>
+            Nous pouvons mettre à jour cette politique de confidentialité de temps à autre.
+            Nous vous informerons de tout changement important via l'application ou par email.
+        </p>
+    </div>
+
+    <div class="contact">
+        <h2>11. Contact</h2>
+        <p>Pour toute question concernant cette politique de confidentialité ou vos données personnelles :</p>
+        <p>
+            <strong>Email :</strong> <a href="mailto:seishydev@gmail.com">seishydev@gmail.com</a><br>
+            <strong>Nom de l'application :</strong> Poksy<br>
+            <strong>Développeur :</strong> Steven Regis Duport
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>12. Juridiction</h2>
+        <p>
+            Cette politique de confidentialité est régie par les lois françaises et européennes,
+            notamment le Règlement Général sur la Protection des Données (RGPD).
+        </p>
+    </div>
+</body>
+</html>
